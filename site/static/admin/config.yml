@@ -72,6 +72,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "values"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Title2, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - label: Values
             name: values
